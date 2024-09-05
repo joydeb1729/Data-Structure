@@ -20,7 +20,7 @@ public class Student {
         return this.gpa;
     }
     public String toString(){
-        String result = "Student{id=" + this.id + ", name='"+ this.name + "'" + "', GPA=" + this.gpa +"}";
+        String result = "Student{id=" + this.id + ", name='"+ this.name + "', GPA=" + this.gpa +"}";
         return result;
     }
 }
