@@ -29,11 +29,6 @@ public class Main {
             stack.pop();
             stack.showStack();
         }
-
-        // Try to pop from an empty stack
-        if (stack.isEmpty()) {
-            System.out.println("The stack is empty. No elements to pop.");
-        }
     }
 }
 
