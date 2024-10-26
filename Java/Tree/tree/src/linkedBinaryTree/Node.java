@@ -1,3 +1,5 @@
+package linkedBinaryTree;
+
 public class Node {
     private int element;
     private Node parent;

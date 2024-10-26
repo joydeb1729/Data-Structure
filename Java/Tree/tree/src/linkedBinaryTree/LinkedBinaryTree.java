@@ -1,3 +1,5 @@
+package linkedBinaryTree;
+
 public class LinkedBinaryTree {
     private Node root;
     private int size;
@@ -189,7 +191,7 @@ public class LinkedBinaryTree {
 
             // Print the node with indentation based on its level in the tree
             System.out.println("    ".repeat(level) +
-                    "Node: " + node.getElement() +
+                    "linkedBinaryTree.Node: " + node.getElement() +
                     " [Parent: " + parentElement +
                     ", Left: " + leftElement +
                     ", Right: " + rightElement + "]");

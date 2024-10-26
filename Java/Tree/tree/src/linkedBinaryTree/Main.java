@@ -1,6 +1,8 @@
+package linkedBinaryTree;
+
 public class Main {
     public static void main(String[] args) {
-        // Create a LinkedBinaryTree instance
+        // Create a linkedBinaryTree.LinkedBinaryTree instance
         LinkedBinaryTree tree = new LinkedBinaryTree();
 
         // Testing addRoot and addLeft/addRight
@@ -27,7 +29,7 @@ public class Main {
         System.out.println("Right-Right child added with element: " + rightRight.getElement());
 
         // Show tree structure
-        System.out.println("\nCurrent LinkedBinaryTree structure:");
+        System.out.println("\nCurrent linkedBinaryTree.LinkedBinaryTree structure:");
         tree.showRecursive(tree.getRoot(), 0);
 
         // Test getSize and isEmpty
@@ -59,7 +61,7 @@ public class Main {
         tree.showRecursive(tree.getRoot(), 0);
 
         // Display final tree structure
-        System.out.println("\nFinal LinkedBinaryTree structure:");
+        System.out.println("\nFinal linkedBinaryTree.LinkedBinaryTree structure:");
         tree.showRecursive(tree.getRoot(), 0);
         System.out.println("Final tree size: " + tree.getSize());
     }
