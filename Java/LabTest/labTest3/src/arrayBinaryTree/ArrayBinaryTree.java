@@ -1,3 +1,5 @@
+package arrayBinaryTree;
+
 public class ArrayBinaryTree {
     private int size;
     private int capacity=100;

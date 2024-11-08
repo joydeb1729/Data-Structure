@@ -1,3 +1,5 @@
+package arrayBinaryTree;
+
 public class Main {
     public static void main(String[] args) {
         ArrayBinaryTree tree = new ArrayBinaryTree(10);
